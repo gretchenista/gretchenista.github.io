@@ -2,6 +2,7 @@
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
+	color: #2b2b2b;
 }
 
 #about, #work, #contact {
@@ -29,26 +30,21 @@ body {
 
 header {
 	height: 800px;
-	background: url('hero.png');
+	background: url('../img/hero.png');
 	background-size: cover;
 }
 
 header h1 {
-	padding: 20px 0;
+	padding: 65px 0 65px 25px;
 	font-family: 'Lora', serif;
 	font-size: 30px;
 	color: #BBC085;
 }
 
-header h2 {
-	font-family: 'Lora', serif;
-	font-size: 20px;
-	color: #BBC085;
-}
 
 nav {
 	float: right;
-	padding: 75px 40px;
+	padding: 75px 25px;
 }
 
 nav ul li {
@@ -70,7 +66,7 @@ header h2 {
 	font-size: 72px;
 	line-height: 80px;
 	color: #9B9B9B;
-	padding: 20px 0;
+	padding: 20px 0 20px 25px;
 }
 
 header h2 span {
@@ -80,19 +76,20 @@ header h2 span {
 /***** About CSS *****/
 
 #about .full-width {
-	padding: 20px 0;
-	height: 500px;
+	padding: 80px 0;
 }
 
 #about h2 {
 	font-family: 'Lora', serif;
 	font-size: 36px;
+	padding-left: 50px;
 }
 
 #about p {
 	font-size: 21px;
 	color: #7f7f7f;
 	line-height: 40px;
+	padding-left: 50px;
 	padding-right: 50px;
 }
 
@@ -101,8 +98,6 @@ header h2 span {
 #work {
 	background-color: #F9CEB7;
 	text-align: center;
-	height: 500px;
-	margin: 20px;
 }
 
 #work .full-width {
@@ -115,6 +110,7 @@ header h2 span {
 
 #work h3 {
 	font-size: 24px;
+	line-height: 30px;
 	width: 190px;
 	margin: 0 auto;
 }
@@ -122,9 +118,8 @@ header h2 span {
 #work p {
 	font-family: 'Lora', serif;
 	font-size: 18px;
-	line-height: 27px;
-	color: #2B2B2B;
-	padding: 0 35px;
+	line-height: 30px;
+	padding: 0 50px;
 }
 
 
@@ -132,18 +127,18 @@ header h2 span {
 
 #contact {
 	background-color: #EBEBEB;
-	height: 600px;
 }
 
 #contact .full-width {
 	padding: 110px 0;
 }
 
-#contact-img {
+#contact img#contact-img {
+	margin-left: 25px;
 	border: 12px solid #ffffff;
 }
 
-#contact h2, #email-header, #socialmedia-header, #contact ul {
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
 	padding-left: 115px;
 }
 
@@ -154,17 +149,20 @@ header h2 span {
 #contact h2 {
 	font-family: 'Lora', serif;
 	font-size: 36px;
+	line-height: 44px;
 }
 
-#email-header {
+#contact #email-header {
 	font-size: 32px;
 	font-weight: 400;
+	line-height: 44px;
 	margin: -30px 0 5px 0;
 }
 
-#socialmedia-header {
+#contact #socialmedia-header {
 	font-weight: bold;
 	font-size: 29px;
+	line-height: 44px
 	margin: 40px 0 0 0;
 }
 
@@ -190,4 +188,3 @@ header h2 span {
 
 
 	
-Contact GitHub API Training Shop Blog About
