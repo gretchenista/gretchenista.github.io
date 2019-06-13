@@ -29,9 +29,7 @@ body {
 /***** Header CSS *****/
 
 header {
-	height: 800px;
-	background: url('hero.png');
-	background-size: cover;
+	height: 200px;
 }
 
 header h1 {
@@ -56,7 +54,7 @@ nav ul li a {
 	text-decoration: none;
 	font-size: 18px;
 	color: #828282;
-	padding-left: 80px;
+	padding-left: 30px;
 }
 
 header h2 {
@@ -93,29 +91,31 @@ header h2 span {
 	padding-right: 50px;
 }
 
-/***** Work *****/
+/***** Main Portfolio *****/
 
-#work {
+#portfolio {
 	background-color: #F9CEB7;
 	text-align: center;
 }
 
-#work .full-width {
+#portfolio .full-width {
 	padding: 115px 0;
 }
 
-#work img {
+#portfolio img {
+	height: 300px;
+	width: 500px;
 	padding-bottom: 30px;
 }
 
-#work h3 {
+#portfolio h3 {
 	font-size: 24px;
 	line-height: 30px;
 	width: 190px;
 	margin: 0 auto;
 }
 
-#work p {
+#portfolio p {
 	font-family: 'Lora', serif;
 	font-size: 18px;
 	line-height: 30px;
@@ -162,7 +162,7 @@ header h2 span {
 #contact #socialmedia-header {
 	font-weight: bold;
 	font-size: 29px;
-	line-height: 44px;
+	line-height: 44px
 	margin: 40px 0 0 0;
 }
 
@@ -186,5 +186,3 @@ header h2 span {
 	padding-right: 48px;
 }
 
-
-	
